@@ -1,13 +1,13 @@
 import React from "react";
-import img from "../Image/general-physician.webp"
+import img from "../Image/general-physician.webp";
 
-function GeneralPhysician() {
+function GeneralPhysicianContect() {
   return (
     <>
-      <div className="about-doctor " >
+      <div className="general-doctor ">
         <div className="contanier">
           <div className="row">
-            <div className="col-second">
+            <div className="col-a">
               <div className="doctor-info">
                 <h3>What Does A General Physician Do?</h3>
                 <p>
@@ -30,29 +30,27 @@ function GeneralPhysician() {
                   they solve their problem and treat them
                 </p>
                 <div className="list-footer">
-                  <ul>
-                    <li>Asthma & Allergy</li>
-                    <li>Covid Symptoms</li>
-                    <li>Arthritis & Joint Pain</li>
-                    <li>Diabetes</li>
-                    <li>High Blood Pressure</li>
-                    <li>Migraine & Headache</li>
-                    <li>Thyroid</li>
-                  </ul>
+                  <li>Asthma & Allergy</li>
+                  <li>Covid Symptoms</li>
+                  <li>Arthritis & Joint Pain</li>
+                  <li>Diabetes</li>
+                  <li>High Blood Pressure</li>
+                  <li>Migraine & Headache</li>
+                  <li>Thyroid</li>
                 </div>
               </div>
             </div>
             <div className="col-first">
-                <div className="about-doctor-detail">
-                  <div className="img-about">
-                    <img src={img} alt="" />
-                  </div>
+              <div className="about-doctor-detail">
+                <div className="img-ab">
+                  <img src={img} alt="" />
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
     </>
   );
 }
-export { GeneralPhysician };
+export { GeneralPhysicianContect };

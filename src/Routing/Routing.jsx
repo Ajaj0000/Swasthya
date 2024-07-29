@@ -7,26 +7,25 @@ import { VideoComponent } from "../Gallery-Section/Gallery-component/VideoCompon
 import { ContectUs } from "../ContectUs-section/Contect-component/ContectUs";
 import { TreatmentComponent } from "../Treatment-section/Treatment-component/Main-Treatment-component";
 import { FaqComponent } from "../FAQ-Section/Faq-component/Faq-Component";
+import { HealthComponenet } from "../Health-Tips-section/Health-Tips-component/Health-component";
 
-
-
-
-
-function Routing(){
-    return(
-        <>
-        <BrowserRouter>
+function Routing() {
+  return (
+    <>
+      <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Homecomponent/>}/>
-            <Route path="/treatment" element={<TreatmentComponent/>}/>
-            <Route path="/faq" element={<FaqComponent/>}/>
-            {/* <Route path="/gallery" element={<GalleryComponent/>}/> */}
-            <Route path="gallery"element={<VideoComponent/>}/>
-            <Route path="/about" element={<RahulDetail/>}/>
-            <Route path="/contectus"element={<ContectUs/>}/>
+          <Route path="/" element={<Homecomponent />} />
+          <Route path="/treatment" element={<TreatmentComponent />} />
+          <Route path="/faq" element={<FaqComponent />} />
+          {/* <Route path="/gallery" element={<GalleryComponent/>}/> */}
+          <Route path="/video" element={<VideoComponent />} />
+          <Route path="/photo" element={<GalleryComponent />} />
+          <Route path="/about" element={<RahulDetail />} />
+          <Route path="/health" element={<HealthComponenet />} />
+          <Route path="/contectus" element={<ContectUs />} />
         </Routes>
-        </BrowserRouter>
-        </>
-    )
+      </BrowserRouter>
+    </>
+  );
 }
-export {Routing}
+export { Routing };

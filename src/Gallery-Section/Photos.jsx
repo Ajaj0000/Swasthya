@@ -22,121 +22,117 @@ import img20 from "../Image/6_19.png";
 import img21 from "../Image/9_20.png";
 import img22 from "../Image/14_16.jpeg";
 
+function Photos() {
+  const serviceData = [
+    {
+      id: "c1",
+      img: img1,
+    },
+    {
+      id: "c1",
+      img: img2,
+    },
+    {
+      id: "c1",
+      img: img3,
+    },
+    {
+      id: "c1",
+      img: img4,
+    },
+    {
+      id: "c1",
+      img: img5,
+    },
+    {
+      id: "c1",
+      img: img6,
+    },
+    {
+      id: "c1",
+      img: img7,
+    },
+    {
+      id: "c1",
+      img: img8,
+    },
+    {
+      id: "c1",
+      img: img9,
+    },
+    {
+      id: "c1",
+      img: img10,
+    },
+    {
+      id: "c1",
+      img: img11,
+    },
+    {
+      id: "c1",
+      img: img12,
+    },
+    {
+      id: "c1",
+      img: img13,
+    },
+    {
+      id: "c1",
+      img: img14,
+    },
+    {
+      id: "c1",
+      img: img15,
+    },
+    {
+      id: "c1",
+      img: img16,
+    },
+    {
+      id: "c1",
+      img: img17,
+    },
 
+    {
+      id: "c1",
+      img: img18,
+    },
+    {
+      id: "c1",
+      img: img19,
+    },
+    {
+      id: "c1",
+      img: img20,
+    },
+    {
+      id: "c1",
+      img: img21,
+    },
+    {
+      id: "c1",
+      img: img22,
+    },
+  ];
 
-function Photos(){
-    const serviceData = [
-        {
-            id: 'c1',
-            img: img1
-        },
-        {
-            id: 'c1',
-            img: img2,
-        },
-        {
-            id: 'c1',
-           img: img3
-        },
-        {
-            id: 'c1',
-           img: img4
-        },
-        {
-            id: 'c1',
-            img: img5
-        },
-        {
-            id: 'c1',
-            img: img6
-        },
-        {
-            id: 'c1',
-           img: img7
-        },
-        {
-            id: 'c1',
-            img: img8
-        },
-        {
-            id: 'c1',
-            img: img9
-        },
-        {
-            id: 'c1',
-            img: img10
-        },
-        {
-            id: 'c1',
-            img: img11
-        },
-        {
-            id: 'c1',
-            img: img12
-        },
-        {
-            id: 'c1',
-            img: img13
-        },
-        {
-            id: 'c1',
-            img: img14
-        },
-        {
-            id: 'c1',
-            img: img15
-        },
-        {
-            id: 'c1',
-            img: img16
-        },
-        {
-            id: 'c1',
-            img: img17
-        },
-
-        {
-            id: 'c1',
-            img: img18
-        }, {
-            id: 'c1',
-            img: img19
-        },
-        {
-            id: 'c1',
-            img: img20
-        },
-        {
-            id: 'c1',
-            img: img21
-        },
-        {
-            id: 'c1',
-            img: img22
-        },
-    ]
-
-    return(
-        <>
-        <section id="service">
-                <div className="service-inner">
-                    <div className="gallery">
-                        {
-                            serviceData.map((itm) => {
-                                return (
-                                    <>
-                                            <div className="card-img">
-                                                <img src={itm.img} alt="img" />
-                                            </div>
-                                    </>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-            </section>
-        
-        </>
-    )
+  return (
+    <>
+      <section id="service">
+        <div className="service-inner">
+          <div className="gallery">
+            {serviceData.map((itm) => {
+              return (
+                <>
+                  <div className="card-img">
+                    <img src={itm.img} alt="img" />
+                  </div>
+                </>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
-export{Photos}
+export { Photos };

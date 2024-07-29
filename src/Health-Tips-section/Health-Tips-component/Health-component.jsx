@@ -1,17 +1,17 @@
 import React from "react";
 import { Headersec } from "../../Common/Header-sec";
 import { Footer } from "../../Common/Footer";
-import { FaqBanner } from "../Faq-Banner";
-import { Faq } from "../Faq";
+import { HealthBanner } from "../HealthBanner";
+import { HealthTips } from "../Health-tips";
 
-function FaqComponent() {
+function HealthComponenet() {
   return (
     <>
       <Headersec />
-      <FaqBanner />
-      <Faq />
+      <HealthBanner />
+      <HealthTips />
       <Footer />
     </>
   );
 }
-export { FaqComponent };
+export { HealthComponenet };

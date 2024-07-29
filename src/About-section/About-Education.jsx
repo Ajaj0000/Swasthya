@@ -1,34 +1,10 @@
 import React from "react";
-import { AboutEducation } from "./About-Education";
+import { FaStar } from "react-icons/fa";
 
-
-function Qualification() {
-  return (
-    <>
-      <section>
-        <div className="qualification">
-          <div className="contanier">
-            <div className="row">
-              <div className="inner-box">
-                <div className="left-slidbar">
-                  <li>
-                    <a href="/education">Education</a>
-                  </li>
-                  <li>
-                    <a href="/experience">Experience</a>
-                  </li>
-                  <li>
-                    <a href="/membership">Membership</a>
-                  </li>
-                  <li>
-                    <a href="/award">Award & Honours</a>
-                  </li>
-                  <li>
-                    <a href="/publication">PUBLICATION</a>
-                  </li>
-                </div>
-                <AboutEducation/>
-                {/* <div className="right-side-box">
+function AboutEducation(){
+    return(
+        <>
+          <div className="right-side-box">
                   <div className="content-qualification">
                     <li>
                       <span>
@@ -129,13 +105,8 @@ function Qualification() {
                       Foundation, India
                     </li>
                   </div>
-                </div> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
+                </div>
+        </>
+    )
 }
-export { Qualification };
+export{AboutEducation}

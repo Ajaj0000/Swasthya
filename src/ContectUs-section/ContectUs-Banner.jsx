@@ -1,9 +1,9 @@
 import React from "react";
 
-function ContectBanner(){
-    return(
-        <>
-          <div className="gallery-banner-img">
+function ContectBanner() {
+  return (
+    <>
+      <div className="gallery-banner-img">
         <div className="gallery-banner">
           <div className="gallery-content">
             <h3>Contect Us</h3>
@@ -17,7 +17,7 @@ function ContectBanner(){
           </div>
         </div>
       </div>
-        </>
-    )
+    </>
+  );
 }
-export{ContectBanner}
+export { ContectBanner };

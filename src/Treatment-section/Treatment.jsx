@@ -202,102 +202,92 @@ function DiabetesTreatment() {
                   <div className="side-bar-title">
                     <h3>Treatments</h3>
                   </div>
-             <div className="dd">
-             <ul>
-               <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Diabetes Treatment in Jaipur</a>{" "}
-                  </li>
-                  <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Hypertension Treatment in Jaipur</a>{" "}
-                  </li>
-                  <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Heart Disease Treatment in Jaipur</a>{" "}
-                  </li>
-                  <li>
-                   
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Arthritis Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                   
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Headache Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                   
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Anaemia Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                    
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Viral Fever Treatment in Jaipur</a>
-                  </li>
-                  <li>
-             
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Asthma Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                    
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Jaundice Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Tuberculosis Treatment in Jaipur</a>
-                  </li>
-                  <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Thyroid Disorders Treatment in Jaipur</a>{" "}
-                  </li>
-                  <li>
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Obesity Treatment in Jaipur</a>{" "}
-                  </li>
-                  <li>
-                  
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Vaccination in Jaipur</a>
-                  </li>
-                  <li>
-                   
-                    <span>
-                      <TiChevronRight />
-                    </span>
-                    <a href="/">Allergy treatment in Jaipur</a>
-                  </li>
-               </ul>
-             </div>
+                  <div className="dd">
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Diabetes Treatment in Jaipur</a>{" "}
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Hypertension Treatment in Jaipur</a>{" "}
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Heart Disease Treatment in Jaipur</a>{" "}
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Arthritis Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Headache Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Anaemia Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Viral Fever Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Asthma Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Jaundice Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Tuberculosis Treatment in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Thyroid Disorders Treatment in Jaipur</a>{" "}
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Obesity Treatment in Jaipur</a>{" "}
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Vaccination in Jaipur</a>
+                    </li>
+                    <li>
+                      <span>
+                        <TiChevronRight />
+                      </span>
+                      <a href="/">Allergy treatment in Jaipur</a>
+                    </li>
+                  </div>
                 </div>
                 <div className="boucher-box">
                   <div className="inner">

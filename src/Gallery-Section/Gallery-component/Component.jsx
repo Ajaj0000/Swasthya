@@ -4,15 +4,14 @@ import { Headersec } from "../../Common/Header-sec";
 import { Footer } from "../../Common/Footer";
 import { Photos } from "../Photos";
 
-function GalleryComponent(){
-    return(
-        <>
-        <Headersec/>
-        <GalleryBanner/>
-        <Photos/>
-        <Footer/>
-
-        </>
-    )
+function GalleryComponent() {
+  return (
+    <>
+      <Headersec />
+      <GalleryBanner />
+      <Photos />
+      <Footer />
+    </>
+  );
 }
-export{GalleryComponent}
+export { GalleryComponent };

@@ -4,8 +4,9 @@ import { Footer } from "../Common/Footer";
 import img from "../Image/Rahul-Mathur.webp";
 import { Qualification } from "./Qulification";
 import { Testimonial } from "../Home/Testimonia";
-import { WhychoodeClinic, WhychooseClinic } from "../Home/WhyChooseClinic";
+import { WhychooseClinic } from "../Home/WhyChooseClinic";
 import { Banner } from "../Home/Banner";
+import { MiddleHealthSection } from "../Home/Middle-Health-Section";
 
 function RahulDetail() {
   return (
@@ -18,7 +19,7 @@ function RahulDetail() {
             <div className="row">
               <div className="col-first">
                 <div className="about-doctor-detail">
-                  <div className="img-about">
+                  <div className="img-about ">
                     <img src={img} alt="" />
                   </div>
                   <div className="detail-doctor">
@@ -59,15 +60,13 @@ function RahulDetail() {
                     Jaipur.
                   </p>
                   <div className="list-footer">
-                    <ul>
-                      <li>Asthma & Allergy</li>
-                      <li>Covid Symptoms</li>
-                      <li>Arthritis & Joint Pain</li>
-                      <li>Diabetes</li>
-                      <li>High Blood Pressure</li>
-                      <li>Migraine & Headache</li>
-                      <li>Thyroid</li>
-                    </ul>
+                    <li>Asthma & Allergy</li>
+                    <li>Covid Symptoms</li>
+                    <li>Arthritis & Joint Pain</li>
+                    <li>Diabetes</li>
+                    <li>High Blood Pressure</li>
+                    <li>Migraine & Headache</li>
+                    <li>Thyroid</li>
                   </div>
                 </div>
               </div>
@@ -78,6 +77,7 @@ function RahulDetail() {
       <div className="div"></div>
 
       <Qualification />
+      <MiddleHealthSection/>
       <WhychooseClinic />
       <Testimonial />
       <Footer />
