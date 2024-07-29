@@ -6,7 +6,7 @@ function ContectBanner() {
       <div className="gallery-banner-img">
         <div className="gallery-banner">
           <div className="gallery-content">
-            <h3>Contect Us</h3>
+            <h3>Contact Us</h3>
             <span className="div-photo"></span>
             <p>
               <span>

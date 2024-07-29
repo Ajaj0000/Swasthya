@@ -53,7 +53,7 @@ function Service() {
                       <img src={img2} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Malaria</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -75,7 +75,7 @@ function Service() {
                       <img src={img3} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>High BP</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -97,7 +97,7 @@ function Service() {
                       <img src={img4} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Asthma/Allergy</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -119,7 +119,7 @@ function Service() {
                       <img src={img5} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Thyroid Disorders</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -141,7 +141,7 @@ function Service() {
                       <img src={img6} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Joint Pain</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -163,7 +163,7 @@ function Service() {
                       <img src={img7} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Jaundice</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
@@ -185,7 +185,7 @@ function Service() {
                       <img src={img8} alt="" />
                     </div>
                     <div className="service-text">
-                      <h4>Diabetes</h4>
+                      <h4>Tuberculosis</h4>
                       <p>
                         Take charge of your health! Get top-quality diabetes
                         treatment from Dr. Rahul Mathur at Swasthya Clinic and
