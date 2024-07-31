@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../Image/1657095284_1.png";
 import { TiChevronRight } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 function DiabetesTreatment() {
   return (
@@ -203,90 +204,118 @@ function DiabetesTreatment() {
                     <h3>Treatments</h3>
                   </div>
                   <div className="dd">
+                    <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Diabetes Treatment in Jaipur</a>{" "}
+                      Diabetes Treatment in Jaipur
                     </li>
+                    </Link>
+                    <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Hypertension Treatment in Jaipur</a>{" "}
+                      Hypertension Treatment in Jaipur
                     </li>
+                    </Link>
+                    <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Heart Disease Treatment in Jaipur</a>{" "}
+                      Heart Disease Treatment in Jaipur
                     </li>
+                    </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Arthritis Treatment in Jaipur</a>
+                      Arthritis Treatment in Jaipur
                     </li>
+                   </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Headache Treatment in Jaipur</a>
+                      Headache Treatment in Jaipur
                     </li>
+                   </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Anaemia Treatment in Jaipur</a>
+                      Anaemia Treatment in Jaipur
                     </li>
+                   </Link>
+                  <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Viral Fever Treatment in Jaipur</a>
+                     Viral Fever Treatment in Jaipur
                     </li>
+                  </Link>
+                    <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Asthma Treatment in Jaipur</a>
+                      Asthma Treatment in Jaipur
                     </li>
+                    </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Jaundice Treatment in Jaipur</a>
+                      Jaundice Treatment in Jaipur
                     </li>
+                   </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Tuberculosis Treatment in Jaipur</a>
+                      Tuberculosis Treatment in Jaipur
                     </li>
+                   </Link>
+                    <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Thyroid Disorders Treatment in Jaipur</a>{" "}
+                      Thyroid Disorders Treatment in Jaipur
                     </li>
+                    </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Obesity Treatment in Jaipur</a>{" "}
+                      Obesity Treatment in Jaipur
                     </li>
+                   </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Vaccination in Jaipur</a>
+                      Vaccination in Jaipur
                     </li>
+                   </Link>
+                   <Link>
                     <li>
                       <span>
                         <TiChevronRight />
                       </span>
-                      <a href="/">Allergy treatment in Jaipur</a>
+                     Allergy treatment in Jaipur
                     </li>
+                   </Link>
                   </div>
                 </div>
                 <div className="boucher-box">

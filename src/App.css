@@ -148,6 +148,9 @@
   margin-right: 30px;
   cursor: pointer;
 }
+.header-sec .container .text h5:hover{
+  color:#00717a ;
+}
 .header-sec .container .header-btn button {
   background: #0c225e;
   border-radius: 100px;
@@ -1939,7 +1942,7 @@
   overflow: hidden;
   list-style: none;
 }
-.side-bar .right-side .dd li a {
+.side-bar .right-side .dd a {
   text-decoration: none;
   list-style: none;
   color: black;
@@ -1988,6 +1991,10 @@
   transition: all 0.3s ease-in;
   margin-right: 0;
   text-decoration: none;
+}
+.side-bar .right-side .boucher-box .inner a:hover{
+  background-color: white;
+  color: #3b3b3b;
 }
 /* Health-Tips -section */
 .blog .container {
@@ -2966,8 +2973,5 @@ span.open1 {
   .page-section .container .row .page-colum-b {
     width: 90%;
   }
-  @media (min-width: 820px) and (max-width: 1200px){
-
-
-  }
+ 
 }
