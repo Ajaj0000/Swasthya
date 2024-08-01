@@ -1,27 +1,7 @@
 import React from "react";
+import { FcGoogle } from "react-icons/fc";
 
-function Testimonial() {
-  // const customerReview = [
-  //   {
-  //     id: "a1",
-  //     name: "Ajaj khan",
-  //     message:
-  //       "In my opinion this is the one of the best clinic in Jaipur. It has the most well behaved& managed staff.Especially  Dr.Meenakshi Soni's behavior is praiseworthy. She is very sincere &dedicated.her counselling to the patient is wonderful.Dr.Dashrath from this clinic is also very much sincere towards his work as physiotherapist, I've experienced him during giving therapy to my son at our residence,he's100% sincere towards his patient.He explains very well to the patient about the treatment &problem. I personally strongly recommend this clinic for healthy treatment",
-  //   },
-  //   {
-  //     id: "a1",
-  //     name: "Mubarak khan",
-  //     message:
-  //       "In my opinion this is the one of the best clinic in Jaipur. It has the most well behaved& managed staff.Especially  Dr.Meenakshi Soni's behavior is praiseworthy. She is very sincere &dedicated.her counselling to the patient is wonderful.Dr.Dashrath from this clinic is also very much sincere towards his work as physiotherapist, I've experienced him during giving therapy to my son at our residence,he's100% sincere towards his patient.He explains very well to the patient about the treatment &problem. I personally strongly recommend this clinic for healthy treatment",
-  //   },
-  //   {
-  //     id: "a1",
-  //     name: "Anish khan",
-  //     message:
-  //       "In my opinion this is the one of the best clinic in Jaipur. It has the most well behaved& managed staff.Especially  Dr.Meenakshi Soni's behavior is praiseworthy. She is very sincere &dedicated.her counselling to the patient is wonderful.Dr.Dashrath from this clinic is also very much sincere towards his work as physiotherapist, I've experienced him during giving therapy to my son at our residence,he's100% sincere towards his patient.He explains very well to the patient about the treatment &problem. I personally strongly recommend this clinic for healthy treatment",
-  //   },
-
-  // ];
+function Testimonial(){
   return (
     <>
       <section id="uniquework">
@@ -113,6 +93,11 @@ function Testimonial() {
             </div>
           </div>
         </div>
+        <div className="btn">
+           <a href="https://www.google.com/maps/place/Best+General+Physician+in+Jaipur+-+Dr+Rahul+Mathur+-+Swasthya+Clinic,+Diabetes,+Dengue%2FMalaria,+Cold,+Fever+Doctor+Jaipur/@26.8745911,75.7902352,17z/data=!4m8!3m7!1s0x396db582a55abc9d:0x89ed55a2b8be4116!8m2!3d26.8746158!4d75.7923551!9m1!1b1!16s%2Fg%2F11fk4mdyny?entry=ttu">
+           <button><FcGoogle /> View All Review</button>
+           </a>
+          </div>
       </section>
     </>
   );

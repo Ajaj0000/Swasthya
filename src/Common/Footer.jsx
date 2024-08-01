@@ -51,7 +51,7 @@ function Footer() {
                   <ul>
                     <li>
                      
-                    <Link to="/treatment">
+                    <Link to="/">
                     {" "}
                     <span>
                         <FaArrowRight />
@@ -71,7 +71,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                     <Link to="/">
+                     <Link to="/covid-19">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}

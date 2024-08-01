@@ -148,8 +148,8 @@
   margin-right: 30px;
   cursor: pointer;
 }
-.header-sec .container .text h5:hover{
-  color:#00717a ;
+.header-sec .container .text h5:hover {
+  color: #00717a;
 }
 .header-sec .container .header-btn button {
   background: #0c225e;
@@ -160,7 +160,7 @@
   font-size: 15px;
   line-height: 19px;
   font-weight: 500;
-  padding: 8px;
+  padding: 9px 16px;
   border: none;
 }
 .header-sec .container button:hover {
@@ -238,7 +238,7 @@
   .swiper-pagination-bullet {
   margin: 6px var(--swiper-pagination-bullet-horizontal-gap, 4px);
   width: 1%;
-  height: 16px;
+  height: 14px;
 }
 .b {
   width: 50%;
@@ -985,6 +985,35 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
+#uniquework .btn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#uniquework .btn a{
+  text-decoration: none;
+}
+#uniquework .btn button{
+  background: #FFFFFF;
+  border: 0.496602px solid #17CBD7;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+  border: 3px;
+  padding: 15px 12px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#uniquework .btn button:hover{
+  cursor: pointer;
+}
+#uniquework .btn button svg{
+  font-size: 24px;
+}
 /* footer */
 .main-footer {
   background: #0f1831;
@@ -1210,7 +1239,7 @@
   font-family: unset;
   font-style: normal;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 23px;
   color: #ffffff;
 }
@@ -1992,7 +2021,7 @@
   margin-right: 0;
   text-decoration: none;
 }
-.side-bar .right-side .boucher-box .inner a:hover{
+.side-bar .right-side .boucher-box .inner a:hover {
   background-color: white;
   color: #3b3b3b;
 }
@@ -2272,8 +2301,8 @@ span.open1 {
   .swiper-pagination-horizontal.swiper-pagination-bullets
     .swiper-pagination-bullet {
     margin: 6px var(--swiper-pagination-bullet-horizontal-gap, 4px);
-    width: 3%;
-    height: 16px;
+    width: 2%;
+    height: 13px;
   }
   .banner {
     width: 100% !important;
@@ -2854,10 +2883,10 @@ span.open1 {
     text-align: center;
   }
 }
-@media (min-width: 250px) and (max-width: 330px){
+@media (min-width: 250px) and (max-width: 330px) {
   .fourth-contect-no li a {
     font-size: 10px;
-}
+  }
 }
 @media (min-width: 600px) and (max-width: 1000px) {
   .header-top {
@@ -2973,5 +3002,5 @@ span.open1 {
   .page-section .container .row .page-colum-b {
     width: 90%;
   }
- 
+  
 }

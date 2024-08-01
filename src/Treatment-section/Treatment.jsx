@@ -3,9 +3,9 @@ import img from "../Image/1657095284_1.png";
 import { TiChevronRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
 
-function DiabetesTreatment() {
+function DiabetesTreatment(){
   return (
-    <>
+    <> 
       <section>
         <div className="side-bar">
           <div className="container">
@@ -341,4 +341,4 @@ function DiabetesTreatment() {
     </>
   );
 }
-export { DiabetesTreatment };
+export {DiabetesTreatment};

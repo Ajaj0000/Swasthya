@@ -10,6 +10,7 @@ import { WhychooseClinic } from "../WhyChooseClinic";
 import { MiddleHealthSection } from "../Middle-Health-Section";
 
 function Homecomponent() {
+  
   return (
     <>
       <Headersec />
