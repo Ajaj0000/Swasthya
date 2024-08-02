@@ -94,7 +94,7 @@ function Testimonial(){
           </div>
         </div>
         <div className="btn">
-           <a href="https://www.google.com/maps/place/Best+General+Physician+in+Jaipur+-+Dr+Rahul+Mathur+-+Swasthya+Clinic,+Diabetes,+Dengue%2FMalaria,+Cold,+Fever+Doctor+Jaipur/@26.8745911,75.7902352,17z/data=!4m8!3m7!1s0x396db582a55abc9d:0x89ed55a2b8be4116!8m2!3d26.8746158!4d75.7923551!9m1!1b1!16s%2Fg%2F11fk4mdyny?entry=ttu">
+           <a href="https://www.google.com/maps/search/govindpura+tower+jaipur/@26.8857126,75.6550798,12.27z?entry=ttu">
            <button><FcGoogle /> View All Review</button>
            </a>
           </div>

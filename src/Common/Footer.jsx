@@ -1,5 +1,5 @@
-import React from "react";
-import img from "../Image/1663225919_1.webp";
+import React, { useEffect, useState } from "react";
+import img from "../Image/logo 2.jpg";
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
@@ -10,7 +10,39 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { SlEnvolope } from "react-icons/sl";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { IoCallSharp } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import { FaLongArrowAltUp } from "react-icons/fa";
+import { FaHeadset } from "react-icons/fa";
+
 function Footer() {
+  const [isToggled, setIsToggled] = useState(true);
+
+  const handleToggle = () => {
+    setIsToggled(!isToggled);
+  };
+  const [button,setbutton]=useState(false)
+
+  useEffect(()=>{
+   const handle=()=>{
+       if(window.pageYOffset > 200){
+           setbutton(true)
+       }
+       else{
+           setbutton(false)
+       }
+   }
+   window.addEventListener('scroll',handle)
+   return () =>{
+       window.removeEventListener('scroll',handle)
+   }
+  }, [])
+   const scrolling=()=>{
+       window.scrollTo({
+           top : '0',
+           behavior : 'smooth'
+       });
+   }
   return (
     <>
       <div className="main-footer">
@@ -21,10 +53,10 @@ function Footer() {
                 <img src={img} alt="" />
               </div>
               <p>
-                Swasthya Clinic, Jaipur is one of the advanced super-specialty
+                Gentle Clinic, Jaipur is one of the advanced super-specialty
                 clinics, that provides world-class treatment for asthma,
                 allergy,diabetes, fever, joint pain, headache and migraine, etc.
-                book an appointment now at +91 7300041110.
+                book an appointment now at +91 1234567890.
               </p>
               <div className="social-icon">
                 <li>
@@ -123,7 +155,7 @@ function Footer() {
                   <ul>
                     <li>
                       {" "}
-                     <Link to="/faq">
+                     <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -133,7 +165,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/faq">
+                      <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -143,7 +175,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/faq">
+                      <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -153,7 +185,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/faq">
+                      <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -163,7 +195,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/faq">
+                      <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -173,7 +205,7 @@ function Footer() {
                     </li>
                     <li>
                       {" "}
-                      <Link to="/faq">
+                      <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -182,7 +214,7 @@ function Footer() {
                       </Link>
                     </li>
                     <li>
-                    <Link to="/faq">
+                    <Link to="/treatment">
                      <span>
                         {" "}
                         <FaArrowRight />{" "}
@@ -203,8 +235,8 @@ function Footer() {
                     <IoLocationSharp className="dot" />
                   </span>
                   <a href="/">
-                    <strong>Swasthya Clinic-</strong>
-                    1330, Kisan Marg, Barkat Nagar, Tonk Phatak, Jaipur
+                    <strong>Gentle Clinic-</strong>
+                    Govindpura, Govindam Tower, Kalwar road, Jaipur
                   </a>
                 </li>
                 <li>
@@ -255,7 +287,7 @@ function Footer() {
                     <span className="fa">
                       <SlEnvolope />
                     </span>
-                    <a href="/">swasthyaclinics@hotmail.com</a>
+                    <a href="/">clinics@hotmail.com</a>
                   </li>
                 </div>
                 <div className="footer-btn">
@@ -271,10 +303,29 @@ function Footer() {
       <div className="div"></div>
       <div className="footer-bottom">
         <p>
-          Copyright © 2022 Swasthyaclinics All Rights Reserved. Design and
+          Copyright © 2024 Gentleclinics All Rights Reserved. Design and
           Develop By <span>Farman khan</span>
         </p>
       </div>
+      <div className="icon-toggle">
+      <div className="icon">
+        
+        {!isToggled && (
+          <>
+          <p><IoCallSharp /></p>
+            <p className="icon-1"><IoLogoWhatsapp /></p>
+            
+          </>
+        )}
+        <p  onClick={handleToggle}
+        className="icon-2"><FaHeadset /></p>
+      </div>
+      <div className="icon-b">
+        <p className="icon-3" onClick={()=>{
+          scrolling();
+        }}><FaLongArrowAltUp /></p>
+      </div>
+    </div>
     </>
   );
 }

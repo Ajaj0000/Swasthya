@@ -13,10 +13,10 @@ function WhychooseClinic() {
             <div className="row">
               <div className="title-choose-lite">
                 <div className="title-choose">
-                  <h1>Why Choose Swasthya Clinic?</h1>
+                  <h1>Why Choose Gentle Clinic?</h1>
                   <p>
                     Everyone wants to get treated by the best and that’s why
-                    people are happy choosing Swasthya Clinic.
+                    people are happy choosing Gentle Clinic.
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ function WhychooseClinic() {
                       <div className="text-inner">
                         <h5>Experienced Physician</h5>
                         <p>
-                          Dr. Rahul Mathur and Dr. Raman Mathur are the
+                          Dr. Aman Mathur and Dr. Piyush Mathur are the
                           experienced physician here providing the best possible
                           treatment.
                         </p>

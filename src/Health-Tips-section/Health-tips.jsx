@@ -5,7 +5,6 @@ import img3 from "../Image/1711619856_56.png";
 import img4 from "../Image/1710849306_55.png";
 import img5 from "../Image/1708067298_54.png";
 import img6 from "../Image/1705297338_53.png";
-
 import { FaArrowRight } from "react-icons/fa6";
 
 function HealthTips() {

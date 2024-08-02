@@ -23,7 +23,7 @@ function RahulDetail() {
                     <img src={img} alt="" />
                   </div>
                   <div className="detail-doctor">
-                    <h4>Dr. Rahul Mathur</h4>
+                    <h4>Dr. Aman Mathur</h4>
                     <p>PGD Internal Medicine (UK)</p>
                     <p>MD (Gold Medalist)</p>
                   </div>
@@ -31,11 +31,11 @@ function RahulDetail() {
               </div>
               <div className="col-second">
                 <div className="doctor-info">
-                  <h3> Dr. Rahul Mathur</h3>
+                  <h3> Dr. Aman Mathur</h3>
                   <h5>Best General Physician In Jaipur</h5>
                   <h6>MD (Gold Medalist), PGD Internal Medicine (UK)</h6>
                   <p>
-                    Dr. Rahul Mathur is a most renowned general physician in
+                    Dr. Aman Mathur is a most renowned general physician in
                     Jaipur city, He has got international training from the UK
                     in Internal Medicine. Conducting several medical camps he
                     has worked at Apex, Metro hospital, and Mahatma Gandhi
@@ -52,7 +52,7 @@ function RahulDetail() {
                     Medicine.
                     <br />
                     <br />
-                    Dr. Mathur is associated with various prestigious
+                    Dr. Aman Mathur is associated with various prestigious
                     organizations and got awarded as a life member of the
                     American College of Physicians & Academy of Family
                     Physicians of India (AFPI). He had previously worked with

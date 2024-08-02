@@ -21,7 +21,7 @@ function MainHeader() {
               </div>
               <div className="inner-text">
                 <h6>Mail Us</h6>
-                <p>swasthyaclinics@hotmail.com</p>
+                <p>clinics@hotmail.com</p>
               </div>
             </li>
             <li>

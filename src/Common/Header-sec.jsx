@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../Image/1663225919_1.webp";
+import logo from "../Image/logo 2.jpg";
 import { MainHeader } from "./Main-Header";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -69,11 +69,11 @@ function Headersec() {
   // ];
   const aboutdrop = [
     {
-      name: "Dr.Rahul Mathur",
+      name: "Dr.Aman Mathur",
       path: "/about",
     },
     {
-      name: "Dr.Raman Mathur",
+      name: "Dr.Piyush Mathur",
       path: "/about",
     },
   ];

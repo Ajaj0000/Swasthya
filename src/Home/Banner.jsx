@@ -42,13 +42,13 @@ function Banner() {
                 </div>
                 <div className="doc">
                   <h5 className="top-txt">Best General physician in Jaipur</h5>
-                  <h1>Dr. Rahul Mathur</h1>
+                  <h1>Dr. Aman Mathur</h1>
                   <h6>Associate Consultant - Internal Medicine</h6>
                   <h6>MD (Gold Medalist)</h6>
                 </div>
               </div>
               <p>
-                Dr. Rahul Mathur is a Consultant Emergency Physician in Jaipur.
+                Dr. Aman Mathur is a Consultant Emergency Physician in Jaipur.
                 He has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
@@ -94,13 +94,13 @@ function Banner() {
                 </div>
                 <div className="doc">
                   <h5 className="top-txt">Best General physician in Jaipur</h5>
-                  <h1>Dr. Raman Mathur</h1>
+                  <h1>Dr. Piyush Mathur</h1>
                   <h6>Associate Consultant - Internal Medicine</h6>
                   <h6>MD (Gold Medalist)</h6>
                 </div>
               </div>
               <p>
-                Dr. Raman Mathur is a Consultant Emergency Physician in Jaipur.
+                Dr. Piyush Mathur is a Consultant Emergency Physician in Jaipur.
                 He has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
