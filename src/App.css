@@ -9,7 +9,6 @@
   align-items: center;
   background: #ffffff;
   border-bottom: 0.1px solid rgba(23, 203, 215, 0.5);
-  margin: -15px;
   width: 100%;
 }
 .header-top .left-side-bar {
@@ -1492,7 +1491,7 @@
 }
 .icon-toggle{
   position: fixed;
-  z-index: 55;
+  z-index: 1000;
   top: 70%;
   right: 0%;
 }
@@ -1514,9 +1513,6 @@
 .icon-toggle .icon .icon-1{
   background-color: #00717a;
   color: white;
-}
-.active {
-  color: green;
 }
 .icon-toggle .icon .icon-2{
 border: 3px solid #14d9d5;
@@ -1540,6 +1536,7 @@ color: #14d9d5;
   border-radius: 50%;
   background-color:#14d9d5;
   color:white;
+
 }
 .icon-toggle .icon-b .icon-3:hover{
   cursor: pointer;
