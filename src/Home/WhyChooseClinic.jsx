@@ -83,7 +83,7 @@ function WhychooseClinic() {
                       <div className="text-inner">
                         <h5>Experienced Physician</h5>
                         <p>
-                          Dr. Aman Mathur and Dr. Piyush Mathur are the
+                          Dr. Aman Kumar and Dr. Piyush Singh are the
                           experienced physician here providing the best possible
                           treatment.
                         </p>

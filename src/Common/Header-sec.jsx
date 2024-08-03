@@ -69,11 +69,11 @@ function Headersec() {
   // ];
   const aboutdrop = [
     {
-      name: "Dr.Aman Mathur",
+      name: "Dr.Aman Kumar",
       path: "/about",
     },
     {
-      name: "Dr.Piyush Mathur",
+      name: "Dr.Piyush Singh",
       path: "/about",
     },
   ];
@@ -271,7 +271,7 @@ function Headersec() {
                   <h5>Health Tips</h5>
                 </li>
               </Link>
-              <Link to="/contectus">
+              <Link to="/contactus">
                 <li>
                   <h5>Contact Us</h5>
                 </li>
@@ -408,7 +408,7 @@ function Headersec() {
           <Link to="/health">
             <li>Health Tips</li>
           </Link>
-          <Link to="/contectus">
+          <Link to="/contactus">
             <li>Contect Us</li>
           </Link>
         </ul>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Headersec } from "../Common/Header-sec";
 import { Footer } from "../Common/Footer";
-import img from "../Image/Rahul-Mathur.webp";
+import img from "../Image/cartoon-character-doctor-with-stethoscope-eyeglasses_890887-11305.avif";
 import { Qualification } from "./Qulification";
 import { Testimonial } from "../Home/Testimonia";
 import { WhychooseClinic } from "../Home/WhyChooseClinic";
@@ -23,7 +23,7 @@ function RahulDetail() {
                     <img src={img} alt="" />
                   </div>
                   <div className="detail-doctor">
-                    <h4>Dr. Aman Mathur</h4>
+                    <h4>Dr. Aman Kumar</h4>
                     <p>PGD Internal Medicine (UK)</p>
                     <p>MD (Gold Medalist)</p>
                   </div>
@@ -31,33 +31,15 @@ function RahulDetail() {
               </div>
               <div className="col-second">
                 <div className="doctor-info">
-                  <h3> Dr. Aman Mathur</h3>
+                  <h3> Dr. Aman Kumar</h3>
                   <h5>Best General Physician In Jaipur</h5>
                   <h6>MD (Gold Medalist), PGD Internal Medicine (UK)</h6>
                   <p>
-                    Dr. Aman Mathur is a most renowned general physician in
-                    Jaipur city, He has got international training from the UK
-                    in Internal Medicine. Conducting several medical camps he
-                    has worked at Apex, Metro hospital, and Mahatma Gandhi
-                    Hospital in Jaipur. Dr. Rahul Mathur has undergone an
-                    International Post Graduate Training in Internal Medicine
-                    from the United Kingdom. With 9+ years of experience, he
-                    always chooses to reflect liability, empathy, and hard work
-                    as his foremost principles for excellence. Dr. Mathur worked
-                    on various topics in medicine and published many research
-                    papers at National & International conferences. He was
-                    awarded as Best Scientific Researcher and got a Clinical
-                    excellence award in recent years. He has particular interest
-                    and expertise in Diabetes, Gastroenterology, and Preventive
-                    Medicine.
+                  A physician, also known as a medical doctor or simply a doctor, is a healthcare professional who practices medicine, which involves diagnosing, treating, and preventing illnesses and injuries. Physicians undergo extensive education and training, including a bachelor's degree, medical school, and residency programs, where they specialize in various fields such as internal medicine, pediatrics, or surgery. They use their expertise to examine patients, order and interpret diagnostic tests, prescribe medications, and develop treatment plans. Physicians often work in hospitals, clinics, or private practices and may collaborate with other healthcare professionals to provide comprehensive care. They play a crucial role in maintaining public health and improving patient outcomes through their knowledge, skills, and compassionate care.
                     <br />
                     <br />
-                    Dr. Aman Mathur is associated with various prestigious
-                    organizations and got awarded as a life member of the
-                    American College of Physicians & Academy of Family
-                    Physicians of India (AFPI). He had previously worked with
-                    Mahatma Gandhi Hospital, Apex Hospitals, and Metro Hospital
-                    Jaipur.
+                    
+Physicians also engage in continuous education to stay updated with the latest medical advancements and best practices. They may conduct research, contribute to medical literature, and teach medical students and residents. Their dedication to patient care, ethical practice, and lifelong learning makes them vital contributors to the healthcare system.
                   </p>
                   <div className="list-footer">
                     <li>Asthma & Allergy</li>

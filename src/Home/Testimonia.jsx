@@ -18,7 +18,7 @@ function Testimonial(){
                 <div className="prof-lite">
                   <div className="customer">
                     <div className="name">
-                      <h4>Ajaj khan</h4>
+                      <h4>Ajay </h4>
                     </div>
                   </div>
                   <div className="customer-mes">
@@ -70,7 +70,7 @@ function Testimonial(){
                 <div className="prof-lite">
                   <div className="customer">
                     <div className="name">
-                      <h4>Anish khan</h4>
+                      <h4>Anshuman Singh</h4>
                     </div>
                   </div>
                   <div className="customer-mes">

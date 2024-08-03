@@ -1,5 +1,5 @@
-import img from "../Image/Rahul-Mathur.webp";
-import Img from "../Image/Raman-Mathur.webp";
+import img from "../Image/cartoon-character-doctor-with-stethoscope-eyeglasses_890887-11305.avif";
+import Img from "../Image/cartoon-doctor-with-stethoscope-stethoscope-generative-ai_561855-57009.avif";
 import img1 from "../Image/Diabetes.webp";
 import img2 from "../Image/Fever.webp";
 import img3 from "../Image/Headache.webp";
@@ -42,17 +42,17 @@ function Banner() {
                 </div>
                 <div className="doc">
                   <h5 className="top-txt">Best General physician in Jaipur</h5>
-                  <h1>Dr. Aman Mathur</h1>
+                  <h1>Dr. Aman Kumar</h1>
                   <h6>Associate Consultant - Internal Medicine</h6>
                   <h6>MD (Gold Medalist)</h6>
                 </div>
               </div>
               <p>
-                Dr. Aman Mathur is a Consultant Emergency Physician in Jaipur.
+                Dr. Aman Kumar is a Consultant Emergency Physician in Jaipur.
                 He has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
-                Multispeciality Hospital (EHCC) as a Consultant Emergency
+                Multispeciality Hospital as a Consultant Emergency
                 Physician.
               </p>
               <div className="features-list">
@@ -94,17 +94,17 @@ function Banner() {
                 </div>
                 <div className="doc">
                   <h5 className="top-txt">Best General physician in Jaipur</h5>
-                  <h1>Dr. Piyush Mathur</h1>
+                  <h1>Dr. Piyush Singh</h1>
                   <h6>Associate Consultant - Internal Medicine</h6>
                   <h6>MD (Gold Medalist)</h6>
                 </div>
               </div>
               <p>
-                Dr. Piyush Mathur is a Consultant Emergency Physician in Jaipur.
+                Dr. Piyush singh is a Consultant Emergency Physician in Jaipur.
                 He has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
-                Multispeciality Hospital (EHCC) as a Consultant Emergency
+                Multispeciality Hospital as a Consultant Emergency
                 Physician.
               </p>
               <div className="features-list">

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../Image/1657095284_1.png";
+import img from "../Image/3644843.webp";
 import { TiChevronRight } from "react-icons/ti";
 import { Link } from "react-router-dom";
 

@@ -5,6 +5,7 @@ import { CiFacebook, CiLinkedin, CiTwitter } from "react-icons/ci";
 import { IoLocationSharp, IoCallSharp, IoLogoWhatsapp } from "react-icons/io5";
 import { SlEnvolope } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import { IoCloseSharp } from "react-icons/io5";
 
 function Footer() {
   const [isToggled, setIsToggled] = useState(true);
@@ -12,6 +13,9 @@ function Footer() {
 
   const handleToggle = () => {
     setIsToggled(!isToggled);
+  };
+  const handleClickIcon1 = () => {
+    setIsToggled(true); // Or whatever logic you want to handle when icon-1 is clicked
   };
 
   useEffect(() => {
@@ -99,9 +103,9 @@ function Footer() {
                 <h4>Contact</h4>
                 <li><span><IoLocationSharp className="dot" /></span><a href="/"><strong>Gentle Clinic-</strong> Govindpura, Govindam Tower, Kalwar road, Jaipur</a></li>
                 <li><span><FaRegClock className="dot" /></span><a href="/">Mon To Sat - 06:00 PM To 09:00 PM</a></li>
-                <li><span><IoLocationSharp className="dot" /></span><a href="/"><strong> CK Birla Hospital-</strong> Near Triveni Flyover, Gopalpura Bypass Road, Jaipur</a></li>
+                <li><span><IoLocationSharp className="dot" /></span><a href="/"><strong>  Hospital-</strong> Govindpura, Govindam Tower, Kalwar road, Jaipur</a></li>
                 <li><span><FaRegClock className="dot" /></span><a href="/">Mon To Sat - 09:30 AM To 06:00 AM</a></li>
-                <li><a href="/"><span><IoLocationSharp className="dot" /></span><strong>Integrity Healthcare-</strong> 151, 3, Shipra Path, Mansarovar, Jaipur</a></li>
+                <li><a href="/"><span><IoLocationSharp className="dot" /></span><strong> Healthcare-</strong> Govindpura, Govindam Tower, Kalwar road, Jaipur</a></li>
                 <li><span><FaRegClock className="dot" /></span><a href="/">Mon To Sat - 06:00 PM To 07:00 PM</a></li>
                 <div className="fourth-contect-no">
                   <li><span className="fa"><FaPhoneAlt /></span><a href="/">1234567890</a></li>
@@ -121,22 +125,24 @@ function Footer() {
       <div className="footer-bottom">
         <p>Copyright © 2024 Gentleclinics All Rights Reserved. Design and Develop By <span>Farman khan</span></p>
       </div>
-      <div className="icon-toggle">
-        <div className="icon">
-          {!isToggled && (
-            <>
-              <p><IoCallSharp /></p>
-              <p className="icon-1"><IoLogoWhatsapp /></p>
-            </>
-          )}
-          <p onClick={handleToggle} className="icon-2"><FaHeadset /></p>
-        </div>
-        {buttonVisible && (
-          <div className="icon-b">
-            <p className="icon-3" onClick={scrollToTop}><FaLongArrowAltUp /></p>
-          </div>
+    <div className="icon-toggle">
+      <div className="icon">
+        {!isToggled && (
+          <>
+            <p><IoCallSharp /></p>
+            <p className="icon-1" onClick={handleClickIcon1}><IoLogoWhatsapp /></p>
+          </>
         )}
+        <p onClick={handleToggle} className={isToggled ? "close" : "icon-2"}>
+          {isToggled ? <FaHeadset /> : <IoCloseSharp />}
+        </p>
       </div>
+      {buttonVisible && (
+        <div className="icon-b">
+          <p className="icon-3" onClick={scrollToTop}><FaLongArrowAltUp /></p>
+        </div>
+      )}
+    </div>
     </>
   );
 }

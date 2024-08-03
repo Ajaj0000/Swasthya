@@ -12,7 +12,7 @@ function SearchBestGeneral() {
                 Medical Disease Treatments?
               </h1>
               <p>
-                Book an appointment with Dr. Aman Mathur at Gentle Clinic,
+                Book an appointment with Dr. Aman Kumar at Gentle Clinic,
                 Jaipur for advanced treatment for general diseases such as
                 malaria, fever, joint pain, diabetes, etc.
               </p>
