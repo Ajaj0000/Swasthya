@@ -25,7 +25,7 @@ function Routing() {
           <Route path="/photo" element={<GalleryComponent />} />
           <Route path="/about" element={<RahulDetail />} />
           <Route path="/health" element={<HealthComponenet />} />
-          <Route path="/contectus" element={<ContectUs />} />
+          <Route path="/contactus" element={<ContectUs />} />
         </Routes>
       </BrowserRouter>
     </>

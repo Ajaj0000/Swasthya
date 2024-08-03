@@ -1138,6 +1138,13 @@
   background: #00717a;
   color: #fff;
 }
+.faq-link:hover img {
+  filter: brightness(0) invert(1); /* This makes the image white */
+}
+
+.faq-link:hover h3 {
+  color: white;
+}
 .home-faq .row-sec .row-col li .faq-link img {
   margin: 0 auto 15px;
   display: block;
@@ -1508,12 +1515,17 @@
   background-color: #00717a;
   color: white;
 }
+.active {
+  color: green;
+}
 .icon-toggle .icon .icon-2{
 border: 3px solid #14d9d5;
 color: #14d9d5;
-transition: .5s ease;
-
 }
+.icon-toggle .icon .close{
+  border: 3px solid #14d9d5;
+  color: #14d9d5;
+  } 
 .icon-toggle .icon-b{
   display: flex;
   justify-content: end;

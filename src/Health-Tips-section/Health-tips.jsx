@@ -5,6 +5,9 @@ import img3 from "../Image/1711619856_56.png";
 import img4 from "../Image/1710849306_55.png";
 import img5 from "../Image/1708067298_54.png";
 import img6 from "../Image/1705297338_53.png";
+import img7 from "../Image/1699250193_48.png";
+import img8 from "../Image/1697609172_47.png";
+import img9 from "../Image/1695715648_46.png";
 import { FaArrowRight } from "react-icons/fa6";
 
 function HealthTips() {
@@ -127,6 +130,60 @@ function HealthTips() {
                       This article delves into the reasons behind a lingering
                       winter cough, exploring both common and more serious
                       health issues associated with incessant coughing.
+                    </p>
+                  </div>
+                  <div className="health-footer">
+                    <p>By:Swasthya</p>
+                    <a href="read">
+                      Read More <FaArrowRight />
+                    </a>
+                  </div>
+                </div>
+                <div className="health-blog">
+                  <div className="health-img">
+                    <img src={img7} alt="img" />
+                  </div>
+                  <div className="health-text">
+                    <h4>Health Tips</h4>
+                    <h3>What Are Common Asthma Symptoms?r</h3>
+                    <p>
+                    Asthma is a chronic respiratory condition that affects millions of people worldwide. It is characterized by inflammation and narrowing of the airways, leading to various symptoms that can significantly impact an individual's quality of life.
+                    </p>
+                  </div>
+                  <div className="health-footer">
+                    <p>By:Swasthya</p>
+                    <a href="read">
+                      Read More <FaArrowRight />
+                    </a>
+                  </div>
+                </div>
+                <div className="health-blog">
+                  <div className="health-img">
+                    <img src={img8} alt="img" />
+                  </div>
+                  <div className="health-text">
+                    <h4>Health Tips</h4>
+                    <h3>Viral Fever Symptoms: A Comprehensive Guide</h3>
+                    <p>
+                    Viral fever is a common ailment that affects people worldwide. It often strikes without warning, leaving individuals feeling unwell and uncomfortable. In this informative guide, we'll delve deep into the world of viral fever symptoms.
+                    </p>
+                  </div>
+                  <div className="health-footer">
+                    <p>By:Swasthya</p>
+                    <a href="read">
+                      Read More <FaArrowRight />
+                    </a>
+                  </div>
+                </div>
+                <div className="health-blog">
+                  <div className="health-img">
+                    <img src={img9} alt="img" />
+                  </div>
+                  <div className="health-text">
+                    <h4>Health Tips</h4>
+                    <h3>What Are The First Warning Signs Of Type 2 Diabetes?</h3>
+                    <p>
+                    Type 2 diabetes is a metabolic disorder that affects millions of people worldwide, and its prevalence continues to rise. It often develops gradually, making it essential to recognize its early warning signs.
                     </p>
                   </div>
                   <div className="health-footer">

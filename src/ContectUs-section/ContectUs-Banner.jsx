@@ -12,7 +12,7 @@ function ContectBanner() {
               <span>
                 <a href="/">Home</a>
               </span>
-              /<span>Our Gallery</span>
+              /<span>Contact Us</span>
             </p>
           </div>
         </div>
