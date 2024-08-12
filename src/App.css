@@ -168,7 +168,7 @@
 /* Navbar */
 .dropContent-lite {
   position: absolute;
-  top: 8rem;
+  top: 10rem;
   visibility: hidden;
   opacity: 0;
   background-color: white;
@@ -1009,7 +1009,7 @@
 }
 #uniquework .btn button:hover {
   cursor: pointer;
-  background-color:#17cbd7 ;
+  background-color: #17cbd7;
   color: white;
 }
 #uniquework .btn button svg {
@@ -1489,19 +1489,19 @@
   color: #17cbd7;
   font-family: unset;
 }
-.icon-toggle{
+.icon-toggle {
   position: fixed;
   z-index: 1000;
   top: 70%;
   right: 0%;
 }
-.icon-toggle .icon{
+.icon-toggle .icon {
   display: flex;
   justify-content: end;
   text-align: center;
   align-items: center;
 }
-.icon-toggle .icon p{
+.icon-toggle .icon p {
   font-size: 1.7rem;
   margin: 10px;
   padding-right: 10px;
@@ -1510,35 +1510,34 @@
   background-color: #000;
   color: white;
 }
-.icon-toggle .icon .icon-1{
+.icon-toggle .icon .icon-1 {
   background-color: #00717a;
   color: white;
 }
-.icon-toggle .icon .icon-2{
-border: 3px solid #14d9d5;
-color: #14d9d5;
-}
-.icon-toggle .icon .close{
+.icon-toggle .icon .icon-2 {
   border: 3px solid #14d9d5;
   color: #14d9d5;
-  } 
-.icon-toggle .icon-b{
+}
+.icon-toggle .icon .close {
+  border: 3px solid #14d9d5;
+  color: #14d9d5;
+}
+.icon-toggle .icon-b {
   display: flex;
   justify-content: end;
   text-align: center;
   align-items: center;
 }
-.icon-toggle .icon-b p{
+.icon-toggle .icon-b p {
   font-size: 1.7rem;
   margin: 10px;
   padding-right: 10px;
   padding: 6px 9px;
   border-radius: 50%;
-  background-color:#14d9d5;
-  color:white;
-
+  background-color: #14d9d5;
+  color: white;
 }
-.icon-toggle .icon-b .icon-3:hover{
+.icon-toggle .icon-b .icon-3:hover {
   cursor: pointer;
   background-color: #000;
   color: white;
@@ -3298,5 +3297,4 @@ span.open1 {
   .page-section .container .row .page-colum-b {
     width: 90%;
   }
-
 }

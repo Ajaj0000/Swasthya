@@ -48,12 +48,11 @@ function Banner() {
                 </div>
               </div>
               <p>
-                Dr. Aman Kumar is a Consultant Emergency Physician in Jaipur.
-                He has more than 7+ years of experience in treating successfully
+                Dr. Aman Kumar is a Consultant Emergency Physician in Jaipur. He
+                has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
-                Multispeciality Hospital as a Consultant Emergency
-                Physician.
+                Multispeciality Hospital as a Consultant Emergency Physician.
               </p>
               <div className="features-list">
                 <li>
@@ -104,8 +103,7 @@ function Banner() {
                 He has more than 7+ years of experience in treating successfully
                 Immediate Medical Assistance In The Case Of Accidents, Grievous
                 injuries, And Illness. Currently, he is working at Eternal
-                Multispeciality Hospital as a Consultant Emergency
-                Physician.
+                Multispeciality Hospital as a Consultant Emergency Physician.
               </p>
               <div className="features-list">
                 <li>
@@ -135,7 +133,7 @@ function Banner() {
               </div>
               <div className="banner-btn">
                 <Link to="/contectus">
-                <button>Appointment</button>
+                  <button>Appointment</button>
                 </Link>
               </div>
             </div>
@@ -152,9 +150,14 @@ function Banner() {
           <br />
           <input type="number" placeholder="Enter Your Phone" required />
           <br />
-          <input type="email" placeholder="Enter Your email" required/>
+          <input type="email" placeholder="Enter Your email" required />
           <br />
-          <input type="text" placeholder="Enter Your message" className="inn" required />
+          <input
+            type="text"
+            placeholder="Enter Your message"
+            className="inn"
+            required
+          />
           <button>Submit</button>
         </form>
       </div>

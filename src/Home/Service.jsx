@@ -39,7 +39,7 @@ function Service() {
                       </p>
                       <div className="service-btn">
                         <Link to="/treatment">
-                        <button>View More</button>
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -60,8 +60,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -82,8 +82,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -104,8 +104,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -126,8 +126,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -148,8 +148,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -170,8 +170,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>
@@ -192,8 +192,8 @@ function Service() {
                         reclaim your life today.
                       </p>
                       <div className="service-btn">
-                      <Link to="/treatment">
-                        <button>View More</button>
+                        <Link to="/treatment">
+                          <button>View More</button>
                         </Link>
                       </div>
                     </div>

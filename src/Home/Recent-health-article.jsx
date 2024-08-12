@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 function RecentHealthArticle() {
   return (
     <>
-    <div className="div"></div>
+      <div className="div"></div>
       <section>
         <div className="blog">
           <div className="container">
-              <div className="article">
-                <div className="health-article">
-                  <h1>Recent Health Articles</h1>
-                  <p>
-                    Read all the blogs provided by our expert doctors on various
-                    diseases and their possible treatments, so you easily
-                    understand your symptoms and their treatments.
-                  </p>
-                </div>
+            <div className="article">
+              <div className="health-article">
+                <h1>Recent Health Articles</h1>
+                <p>
+                  Read all the blogs provided by our expert doctors on various
+                  diseases and their possible treatments, so you easily
+                  understand your symptoms and their treatments.
+                </p>
               </div>
+            </div>
             <div className="row">
               <div className="colum">
                 <div className="health-blog">
@@ -36,7 +36,6 @@ function RecentHealthArticle() {
                       confidence and achieve better overall health outcomes.
                     </p>
                   </div>
-                  
                 </div>
                 <div className="health-blog">
                   <div className="health-img">
@@ -51,7 +50,6 @@ function RecentHealthArticle() {
                       Fever diet in Hindi
                     </p>
                   </div>
-            
                 </div>
                 <div className="health-blog">
                   <div className="health-img">
@@ -67,20 +65,18 @@ function RecentHealthArticle() {
                       कारण बनता है।
                     </p>
                   </div>
-                 
                 </div>
               </div>
               <div className="btn">
                 <Link to="/health">
-                <button>View More</button>
+                  <button>View More</button>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="div">
-      </div>
+      <div className="div"></div>
     </>
   );
 }

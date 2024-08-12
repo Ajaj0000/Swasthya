@@ -1,7 +1,6 @@
 import React from "react";
 import { AboutEducation } from "./About-Education";
 
-
 function Qualification() {
   return (
     <>
@@ -27,7 +26,7 @@ function Qualification() {
                     <a href="/publication">PUBLICATION</a>
                   </li>
                 </div>
-                <AboutEducation/>
+                <AboutEducation />
                 {/* <div className="right-side-box">
                   <div className="content-qualification">
                     <li>

@@ -147,7 +147,11 @@ function HealthTips() {
                     <h4>Health Tips</h4>
                     <h3>What Are Common Asthma Symptoms?r</h3>
                     <p>
-                    Asthma is a chronic respiratory condition that affects millions of people worldwide. It is characterized by inflammation and narrowing of the airways, leading to various symptoms that can significantly impact an individual's quality of life.
+                      Asthma is a chronic respiratory condition that affects
+                      millions of people worldwide. It is characterized by
+                      inflammation and narrowing of the airways, leading to
+                      various symptoms that can significantly impact an
+                      individual's quality of life.
                     </p>
                   </div>
                   <div className="health-footer">
@@ -165,7 +169,11 @@ function HealthTips() {
                     <h4>Health Tips</h4>
                     <h3>Viral Fever Symptoms: A Comprehensive Guide</h3>
                     <p>
-                    Viral fever is a common ailment that affects people worldwide. It often strikes without warning, leaving individuals feeling unwell and uncomfortable. In this informative guide, we'll delve deep into the world of viral fever symptoms.
+                      Viral fever is a common ailment that affects people
+                      worldwide. It often strikes without warning, leaving
+                      individuals feeling unwell and uncomfortable. In this
+                      informative guide, we'll delve deep into the world of
+                      viral fever symptoms.
                     </p>
                   </div>
                   <div className="health-footer">
@@ -181,9 +189,14 @@ function HealthTips() {
                   </div>
                   <div className="health-text">
                     <h4>Health Tips</h4>
-                    <h3>What Are The First Warning Signs Of Type 2 Diabetes?</h3>
+                    <h3>
+                      What Are The First Warning Signs Of Type 2 Diabetes?
+                    </h3>
                     <p>
-                    Type 2 diabetes is a metabolic disorder that affects millions of people worldwide, and its prevalence continues to rise. It often develops gradually, making it essential to recognize its early warning signs.
+                      Type 2 diabetes is a metabolic disorder that affects
+                      millions of people worldwide, and its prevalence continues
+                      to rise. It often develops gradually, making it essential
+                      to recognize its early warning signs.
                     </p>
                   </div>
                   <div className="health-footer">

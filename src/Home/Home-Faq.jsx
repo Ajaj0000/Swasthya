@@ -117,8 +117,12 @@ function HomeFaq() {
                     </h2>
                   </div>
                   <div
-                    style={{ display: add?.id === "1" ? "block" : "none", visibility: add?.id === "1" ? "visible" : "hidden",
-                      transition: "opacity 0.5s ease-in-out, visibility 0.5s ease-in-out"}}
+                    style={{
+                      display: add?.id === "1" ? "block" : "none",
+                      visibility: add?.id === "1" ? "visible" : "hidden",
+                      transition:
+                        "opacity 0.5s ease-in-out, visibility 0.5s ease-in-out",
+                    }}
                     className="faq-ans"
                   >
                     <p>

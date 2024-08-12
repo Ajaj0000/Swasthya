@@ -1,7 +1,7 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
 
-function Testimonial(){
+function Testimonial() {
   return (
     <>
       <section id="uniquework">
@@ -94,10 +94,12 @@ function Testimonial(){
           </div>
         </div>
         <div className="btn">
-           <a href="https://www.google.com/maps/search/govindpura+tower+jaipur/@26.8857126,75.6550798,12.27z?entry=ttu">
-           <button><FcGoogle /> View All Review</button>
-           </a>
-          </div>
+          <a href="https://www.google.com/maps/search/govindpura+tower+jaipur/@26.8857126,75.6550798,12.27z?entry=ttu">
+            <button>
+              <FcGoogle /> View All Review
+            </button>
+          </a>
+        </div>
       </section>
     </>
   );
