@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import img1 from "../Image/faq.webp";
 import img2 from "../Image/Headache (1).webp";
 import img3 from "../Image/Heart-Disease (1).webp";
