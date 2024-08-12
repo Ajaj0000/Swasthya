@@ -409,7 +409,7 @@ function Headersec() {
             <li>Health Tips</li>
           </Link>
           <Link to="/contactus">
-            <li>Contect Us</li>
+            <li>Contact Us</li>
           </Link>
         </ul>
       </div>

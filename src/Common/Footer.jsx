@@ -280,7 +280,7 @@ function Footer() {
       <div className="footer-bottom">
         <p>
           Copyright © 2024 Gentleclinics All Rights Reserved. Design and Develop
-          By <span>Farman khan</span>
+          By <span>Manju It solutions Pvt ltd</span>
         </p>
       </div>
       <div className="icon-toggle">
