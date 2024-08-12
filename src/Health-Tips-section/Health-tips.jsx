@@ -32,7 +32,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -52,7 +52,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -73,7 +73,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -93,7 +93,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -113,7 +113,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -133,7 +133,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -155,7 +155,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -177,7 +177,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
@@ -200,7 +200,7 @@ function HealthTips() {
                     </p>
                   </div>
                   <div className="health-footer">
-                    <p>By:Swasthya</p>
+                    <p>By:Manju IT Solutions</p>
                     <a href="read">
                       Read More <FaArrowRight />
                     </a>
